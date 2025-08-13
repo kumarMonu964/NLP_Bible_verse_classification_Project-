@@ -2,7 +2,7 @@
 Performed text classification (Multi-Class classification) using fundamentals of NLP, build and trained a lot of models right from BOW, TF-TDF to Doc2Vec, experimented with a lot of vector embedding techniques and classification models to find the best model to classify bible verses.
 
 
-This NLP project classifies Bible verses into thematic categories using classical and modern text representation techniques. It includes exploratory data analysis, advanced feature engineering, iterative model evaluations, and final deployment using FastAPI.
+This NLP project classifies Bible verses into thematic categories using classical and modern text representation techniques. It includes exploratory data analysis, advanced feature engineering, iterative model evaluations, and final deployment using FastAPI (not yet deployed)
 
 ---
 
@@ -56,12 +56,6 @@ Each combination was evaluated using:
 
 ## 📊 Visual Results
 
-| Embedding | Model | Accuracy |
-|-----------|-------|----------|
-| TF-IDF    | SVM   | 84.5%    |
-| Word2Vec  | RF    | 79.2%    |
-| BERT      | LR    | 87.1%    |
-
 📸 Sample Plots:
 
 - all plots imcluded in the images folder
@@ -75,8 +69,7 @@ Each combination was evaluated using:
 - Scikit-learn (ML models and evaluation)
 - Matplotlib, Seaborn, WordCloud
 - TQDM (preprocessing progress bars)
-- Hugging Face Transformers (for BERT)
-- FastAPI (for deployment)
+
 
 ---
 
